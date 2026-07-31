@@ -26,6 +26,14 @@ Wait for each answer. One gentle follow-up if an answer is vague, then move on. 
 
 Write it to the current directory. Show them the file when it is done and tell them it is plain text they can open and edit any time.
 
+🔴 **Check whether `CLAUDE.md` already exists in that directory before you write.** If it does, do not overwrite it. Show them the first twenty lines or so, say what it looks like it belongs to, and offer three choices:
+
+- **Merge** the business sections into the file that is already there.
+- **Save mine separately** as `CLAUDE.md.new` so they can compare and rename it themselves.
+- **Replace** it, only if they say so plainly after seeing what is in it.
+
+A member who runs this inside an existing project folder must not silently lose the file that was already there.
+
 ```markdown
 # My Midterm Rental Business
 
@@ -60,9 +68,11 @@ Write it to the current directory. Show them the file when it is done and tell t
 
 Do not end on a file. Offer three, let them pick one, then actually do it:
 
+- **An email to a potential corporate partner**, the kind of company that would place people in their market.
 - **A listing description** for one of their units, written for a relocation coordinator rather than a holidaymaker.
-- **A first message** to a landlord about taking on their unit.
 - **A guest welcome message** for a 60-day corporate stay.
+
+If they name something else instead, write that. The point is a real artifact, not this particular list.
 
 Whatever they pick, produce it using their real details from CLAUDE.md. Then point out explicitly which parts came from their file. That contrast is the whole lesson: this is not generic output, it is theirs.
 

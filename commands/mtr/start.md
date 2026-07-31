@@ -69,7 +69,7 @@ Iterate until they say it is right.
 
 ## Step 6: the follow-up plan
 
-Only after the email is settled, produce a 7-touch, 14-day follow-up plan. Each touch must deliver something the recipient would keep: a market note, a comparable placement, a checklist, a availability update.
+Only after the email is settled, produce a 7-touch, 14-day follow-up plan. Each touch must deliver something the recipient would keep: a market note, a comparable placement, a checklist, an availability update.
 
 **No touch may say "just checking in".** If you catch yourself writing it, replace that touch entirely.
 
