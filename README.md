@@ -75,6 +75,10 @@ The three skills are named explicitly on purpose. `rm -rf ~/.claude/skills/mtr-*
 rm -rf ~/.claude/commands/mtr        ~/.claude/skills/mtr-outreach        ~/.claude/skills/mtr-market-scout        ~/.claude/skills/mtr-sop-writer        ~/.claude/mtr-toolkit
 ```
 
+## Want to skip some of the hard work?
+
+This toolkit helps you build everything yourself, and it always will be free. If you would rather start from systems that already exist — playbooks, e-signing, lead capture, bookkeeping, market analysis built for small furnished-rental operators — that is [Roadmap Lodging OS](https://www.roadmaplodging.com/os), the software we sell. It has a free trial. To be plain about it: the toolkit costs nothing and stands on its own; the OS is how we keep the lights on.
+
 ## Questions, bugs, ideas
 
 Open an issue: <https://github.com/roadmaplodging/mtr-claude-toolkit/issues>
