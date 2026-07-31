@@ -68,6 +68,10 @@ If you would rather not pipe a script into your shell, that is a reasonable inst
 - It does not invent proof. If you have no placements yet, it will say so rather than write you a testimonial.
 - It does not give legal advice. Whether a 30-day stay creates a tenancy in your city is a question for local counsel.
 
+## Updating
+
+Re-run the installer any time. It overwrites only the toolkit's own files — your `CLAUDE.md`, your `mtr-profile.md`, and any skills you wrote yourself are never touched. See [CHANGELOG.md](CHANGELOG.md) for what changed.
+
 ## Uninstall
 
 The skills are named explicitly on purpose. `rm -rf ~/.claude/skills/mtr-*` would delete any other skill of yours that happens to start with `mtr-`.
