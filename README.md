@@ -1,13 +1,26 @@
 # MTR Operator Toolkit for Claude Code
 
-Four commands that do real work in a midterm rental business. Built by [Roadmap Lodging](https://www.roadmaplodging.com) for the operators in our community.
+A four-lesson course and four working commands for midterm rental operators. Built by [Roadmap Lodging](https://www.roadmaplodging.com) for the operators in our community.
+
+**The course.** Four lessons, about 30 minutes, no coding.
 
 ```
-/mtr:start      Set up your profile, then draft your first real B2B outreach email
+/mtr:lesson-1   Build your MTR assistant, so nothing it writes is generic again
+/mtr:lesson-2   Build your first skill, and teach it one job your way
+/mtr:lesson-3   Deploy 3 agents that research your market live on the internet
+/mtr:lesson-4   Build something real: a capability statement you can send today
+```
+
+**The tools, yours to keep.**
+
+```
+/mtr:start      Profile plus your first outreach email, the fast path
 /mtr:outreach   Draft outreach for another target company
 /mtr:market     Check whether a city can support 30 to 90 day furnished housing
 /mtr:sop        Turn a process only you know how to do into one your VA can follow
 ```
+
+**Four gifts** land in `~/.claude/mtr-toolkit/gifts/`: 30 operator prompts, a skill builder, 5 agent workflows, and 10 business templates.
 
 ## Install
 
@@ -32,17 +45,18 @@ mkdir my-mtr-business && cd my-mtr-business
 claude
 ```
 
-and type `/mtr:start`.
+and type `/mtr:lesson-1`.
 
 ## What gets installed
 
 The installer writes **only** into these paths and touches nothing else in `~/.claude`:
 
 ```
-~/.claude/commands/mtr/{start,outreach,market,sop}.md
+~/.claude/commands/mtr/{lesson-1..4,start,outreach,market,sop}.md
 ~/.claude/skills/mtr-outreach/SKILL.md
 ~/.claude/skills/mtr-market-scout/SKILL.md
 ~/.claude/skills/mtr-sop-writer/SKILL.md
+~/.claude/mtr-toolkit/gifts/*.md
 ```
 
 If you would rather not pipe a script into your shell, that is a reasonable instinct. Clone the repo and copy those files yourself. It does the same thing.
@@ -56,7 +70,7 @@ If you would rather not pipe a script into your shell, that is a reasonable inst
 ## Uninstall
 
 ```bash
-rm -rf ~/.claude/commands/mtr ~/.claude/skills/mtr-outreach ~/.claude/skills/mtr-market-scout ~/.claude/skills/mtr-sop-writer
+rm -rf ~/.claude/commands/mtr ~/.claude/skills/mtr-* ~/.claude/mtr-toolkit
 ```
 
 ## Community

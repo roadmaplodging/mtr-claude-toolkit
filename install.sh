@@ -36,7 +36,7 @@ fi
 tar -xzf "${TMP}/toolkit.tar.gz" -C "${TMP}"
 SRC="$(find "${TMP}" -maxdepth 1 -type d -name 'mtr-claude-toolkit-*' | head -n 1)"
 
-if [ -z "${SRC}" ] || [ ! -d "${SRC}/commands/mtr" ] || [ ! -d "${SRC}/skills" ]; then
+if [ -z "${SRC}" ] || [ ! -d "${SRC}/commands/mtr" ] || [ ! -d "${SRC}/skills" ] || [ ! -d "${SRC}/gifts" ]; then
   echo "ERROR: the download looks incomplete. Try again in a minute."
   exit 1
 fi
@@ -62,6 +62,14 @@ for d in "${SRC}/skills/"mtr-*/; do
   SKILL_COUNT=$((SKILL_COUNT + 1))
 done
 
+GIFT_COUNT=0
+mkdir -p "${CLAUDE_DIR}/mtr-toolkit/gifts"
+for f in "${SRC}/gifts/"*.md; do
+  [ -e "$f" ] || continue
+  cp "$f" "${CLAUDE_DIR}/mtr-toolkit/gifts/"
+  GIFT_COUNT=$((GIFT_COUNT + 1))
+done
+
 if [ "${CMD_COUNT}" -eq 0 ] || [ "${SKILL_COUNT}" -eq 0 ]; then
   echo "ERROR: nothing was installed. Please report this in the community."
   exit 1
@@ -69,17 +77,26 @@ fi
 
 # --- done -----------------------------------------------------------------
 echo ""
-echo "Installed ${CMD_COUNT} commands and ${SKILL_COUNT} skills to ~/.claude"
+echo "Installed ${CMD_COUNT} commands, ${SKILL_COUNT} skills and ${GIFT_COUNT} gifts to ~/.claude"
 echo ""
-echo "  /mtr:start      set up your profile, then draft your first outreach email"
+echo "  THE COURSE"
+echo "  /mtr:lesson-1   build your MTR assistant"
+echo "  /mtr:lesson-2   build your first skill"
+echo "  /mtr:lesson-3   deploy 3 research agents on your market"
+echo "  /mtr:lesson-4   build something real you can send a company"
+echo ""
+echo "  THE TOOLS (yours to keep)"
+echo "  /mtr:start      profile + your first outreach email, the fast path"
 echo "  /mtr:outreach   draft outreach for another company"
 echo "  /mtr:market     check whether a city can support midterm rentals"
 echo "  /mtr:sop        turn a process in your head into one your VA can follow"
 echo ""
+echo "  GIFTS  ~/.claude/mtr-toolkit/gifts/"
+echo ""
 echo "Next:"
 echo "  1. Make a folder for your business and cd into it"
 echo "  2. Type:  claude"
-echo "  3. Type:  /mtr:start"
+echo "  3. Type:  /mtr:lesson-1"
 echo ""
 echo "Nothing else in ~/.claude was modified."
 echo ""
