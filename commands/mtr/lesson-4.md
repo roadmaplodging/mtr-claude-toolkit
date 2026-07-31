@@ -17,7 +17,7 @@ Say it plainly. When a relocation coordinator or a claims adjuster asks "so who 
 Offer three, then build whichever they pick:
 
 - **Capability statement.** Who they serve, what they hold, coverage area, compliance readiness, how to start. The default and the most useful.
-- **Property one-pager.** A single unit presented for a corporate client rather than a holidaymaker.
+- **Property one-pager.** A single unit presented for a corporate client rather than a vacation renter.
 - **Market brief.** Their Lesson 3 research as a document they can send a prospect to prove they know the market. This one opens doors on its own.
 
 ## Build it

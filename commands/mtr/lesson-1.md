@@ -97,7 +97,7 @@ A member who runs this inside an existing project folder must not silently lose 
 Do not end on a file. Offer these, let them pick one, then actually do it. Match the offer to their stage:
 
 - **An email to a potential corporate partner** — the kind of company that would place people in their market. Works at every stage; at stage (b) or (c) frame it as the email they will send the week they have a unit.
-- **A listing description** for one of their units, written for a relocation coordinator rather than a holidaymaker (stage (a)).
+- **A listing description** for one of their units, written for a relocation coordinator rather than a vacation renter (stage (a)).
 - **A first message to a landlord** about taking on a unit (stages (b) and (c) — this is their actual next step).
 - **A guest welcome message** for a 60-day corporate stay.
 
