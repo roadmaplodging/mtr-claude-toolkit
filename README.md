@@ -1,6 +1,6 @@
 # MTR Operator Toolkit for Claude Code
 
-A four-lesson course and four working commands for midterm rental operators. Built by [Roadmap Lodging](https://www.roadmaplodging.com) for the operators in our community.
+A four-lesson course and four working commands for midterm rental operators — whether you run units today or are exploring your first one. Built by [Roadmap Lodging](https://www.roadmaplodging.com) and free for any operator to use.
 
 **The course.** Four lessons, about 30 minutes, no coding.
 
@@ -17,7 +17,7 @@ A four-lesson course and four working commands for midterm rental operators. Bui
 /mtr:start      Profile plus your first outreach email, the fast path
 /mtr:outreach   Draft outreach for another target company
 /mtr:market     Check whether a city can support 30 to 90 day furnished housing
-/mtr:sop        Turn a process only you know how to do into one your VA can follow
+/mtr:sop        Turn a process only you know how to do into one an assistant can follow
 ```
 
 **Four gifts** land in `~/.claude/mtr-toolkit/gifts/`: 30 operator prompts, a skill builder, 5 agent workflows, and 10 business templates.
@@ -75,9 +75,11 @@ The three skills are named explicitly on purpose. `rm -rf ~/.claude/skills/mtr-*
 rm -rf ~/.claude/commands/mtr        ~/.claude/skills/mtr-outreach        ~/.claude/skills/mtr-market-scout        ~/.claude/skills/mtr-sop-writer        ~/.claude/mtr-toolkit
 ```
 
-## Community
+## Questions, bugs, ideas
 
-Free operator community: <https://www.skool.com/corporate-housing-community>
+Open an issue: <https://github.com/roadmaplodging/mtr-claude-toolkit/issues>
+
+If you want other operators to compare notes with, the free community that produced this toolkit is at <https://www.skool.com/corporate-housing-community>.
 
 ## Licence
 

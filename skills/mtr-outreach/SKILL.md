@@ -21,10 +21,12 @@ That single fact changes everything about the message. An operator who writes li
 
 **The first sentence is the whole email.** It must be about the reader's situation. Not the operator's business, not their years of experience, not their beautiful units.
 
-Weak: "My name is X and I run a furnished rental business in Nashville."
-Strong: "I saw you're bringing residents in for the July start at Vanderbilt."
+These examples are invented — swap in the operator's real market and real observations:
+
+Weak: "My name is X and I run a furnished rental business in your city."
+Strong: "I saw you're bringing residents in for the July start at the university medical center."
 Strong: "You're posting travel roles at three facilities in the metro right now."
-Strong: "When a claim goes to ALE and the family has pets, most of your options disappear."
+Strong: "When a claim goes to ALE (additional living expense — insurance paying to house a displaced family) and the family has pets, most of your options disappear."
 
 The reader should finish sentence one already knowing this person understands their job.
 
@@ -32,7 +34,7 @@ The reader should finish sentence one already knowing this person understands th
 
 1. Their situation, specifically. One sentence.
 2. What you do about that exact thing. One or two sentences, concrete.
-3. One proof point, real. A past placement, years operating, a comparable client. If there is none, say what capacity you hold instead: "I keep two 2-bedrooms in the 37203 corridor and can turn one in 48 hours."
+3. One proof point, real. A past placement, years operating, a comparable client. If there is none of that, say what capacity you actually hold — an invented example of the shape: "I keep two 2-bedrooms near the hospital district and can turn one around inside two days." And if the operator holds nothing yet, the honest version IS the proof point: new operator, one unit coming online, and exactly how they would handle the placement. Never dress a zero up as a track record.
 4. The ask. Fifteen minutes, and offer to work around their calendar.
 
 **Ban list. These make the email look like every other one:**
@@ -40,7 +42,7 @@ The reader should finish sentence one already knowing this person understands th
 
 ## The 7-touch, 14-day follow-up
 
-Most operators quit at touch two. Most replies come after touch four. That gap is where the business is.
+In our experience most operators quit after a touch or two, and replies tend to come later in the sequence than anyone expects. That gap is where the business is.
 
 The rule that makes it work: **every touch delivers something the reader would keep even if they never reply.** A follow-up that only asks again is a withdrawal from an account you have not funded.
 
@@ -54,7 +56,7 @@ The rule that makes it work: **every touch delivers something the reader would k
 | 6 | 12 | A short note naming the specific reason you think they are a fit, and an easy out |
 | 7 | 14 | The close-the-loop message. "I'll stop here. If housing comes up, this is my number." |
 
-Touch 7 is not a threat and not a guilt trip. Done properly it produces more replies than touches 2 through 6 combined, because it costs the reader nothing to answer.
+Touch 7 is not a threat and not a guilt trip. Done properly it is often the touch that finally gets the reply, because it costs the reader nothing to answer.
 
 **Never write "just checking in".** If a touch has nothing to deliver, the touch is not ready. Skip the day and send it when it is.
 

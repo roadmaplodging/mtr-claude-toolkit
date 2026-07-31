@@ -22,7 +22,7 @@ Use the `mtr-market-scout` skill for the standards. Launch these **concurrently*
 
 **Agent 3: Who else is already serving this.** Furnished operators and corporate housing providers in their market, roughly what they charge for 30 to 90 day stays, how they position, and where the gaps are. What is nobody covering.
 
-Every row must carry a **named source** and a confidence label: **Verified**, **Likely**, or **Unconfirmed**. Never dress an Unconfirmed row up as Verified to make a report look stronger. They may sign a twelve-month lease on this.
+Every row must carry a **named source** and a confidence label: **Verified**, **Likely**, or **Unconfirmed**. Never dress an Unconfirmed row up as Verified to make a report look stronger. Depending on their model, they may sign a lease, take on a co-host client, or buy a property on the strength of this report.
 
 ## Write three files
 
@@ -45,7 +45,7 @@ Ask what else they want the team to look into, and run it. The point is that the
 
 ## Close
 
-> Three agents, live research, real sources, one report. That took minutes and most operators in your market have never done it once.
+> Three agents, live research, real sources, one report. That took minutes, and very few operators anywhere work with a market map like this in front of them.
 >
 > Type **/mtr:lesson-4** and we will turn this into something you can actually send to a company.
 

@@ -62,7 +62,9 @@ try {
     }
 
     if ($cmdCount -eq 0 -or $skillCount -eq 0) {
-        Write-Host "ERROR: nothing was installed. Please report this in the community."
+        Write-Host "ERROR: nothing was installed."
+        Write-Host "Open an issue at https://github.com/roadmaplodging/mtr-claude-toolkit/issues"
+        Write-Host "or post in the free community: https://www.skool.com/corporate-housing-community"
         exit 1
     }
 

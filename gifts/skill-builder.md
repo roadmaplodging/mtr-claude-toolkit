@@ -20,6 +20,8 @@ Good first skills for an operator, in rough order of payback:
 | Turn checklist | Delegatable the day it is written |
 | Quote builder | Stops you pricing by mood |
 
+No live operation yet? Start with the **landlord pitch**, a **market brief** (how you want any city summarized), or a **deal screen** (the questions every unit must answer before you commit). Those pay off before your first guest exists.
+
 ## The build prompt
 
 Paste this and answer the questions.

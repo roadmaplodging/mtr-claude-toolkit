@@ -10,7 +10,7 @@ Read `CLAUDE.md` first. Use `market-demand.md` and friends if Lesson 3 produced 
 
 ## Why this and not something prettier
 
-Say it plainly. When a relocation coordinator or a claims adjuster asks "so who are you", most operators send a listing link or a paragraph in an email. A one-page capability statement is what a vendor sends. It is the single asset that most changes how a company treats an operator, and almost nobody in this business has one.
+Say it plainly. When a relocation coordinator or a claims adjuster asks "so who are you", the common move is to send a listing link or a paragraph in an email. A one-page capability statement is what a vendor sends, and in our experience it changes how a company treats an operator more than any other single asset.
 
 ## Let them choose
 
@@ -27,7 +27,7 @@ Write a **single self-contained HTML file** in the current directory. No externa
 Design constraints:
 - Clean, professional, print-friendly. This gets forwarded and sometimes printed.
 - Readable on a phone. Adjusters open things on phones.
-- Their business name, market, and contact details from `CLAUDE.md`.
+- Their name, business name, market, and contact line from the `## Who I am` section of `CLAUDE.md`. If the business is not named yet, their own name carries the page — that is normal for a new operator.
 - **Every claim traceable.** Do not write "trusted by leading employers" if they have housed nobody. If they have no placements yet, lead with capacity, response time, and compliance readiness instead. Those are true on day one.
 
 Then open it in their browser so they see it immediately.
@@ -47,14 +47,14 @@ Connect the four lessons in four lines:
 - **Lesson 3** put three agents on your market at once.
 - **Lesson 4** turned all of it into something you can send a company.
 
-Then the honest part: this does not build the relationship. The adjuster who texts at 5 PM because a family just lost their house does that because she trusts them, and no tool creates that. What this returns is the hours that used to go on the blank page.
+Then the honest part: this does not build the relationship. Picture the adjuster who texts an operator at 5 PM because a family just lost their house — that call happens because of trust, and no tool creates it. What this returns is the hours that used to go on the blank page.
 
 ## Close
 
-> You have a capability statement, a personalized assistant, a skill you wrote, and a market map. That is more infrastructure than most operators build in a year.
+> You have a capability statement, a personalized assistant, a skill you wrote, and a market map — real infrastructure, built in four short sessions.
 >
 > The tools stay with you: **/mtr:outreach** for the next company, **/mtr:market** for the next city, **/mtr:sop** for the next thing stuck in your head.
 >
-> Post what you built in the community. Someone there needs to see it is possible.
+> If you want other operators to compare notes with, the free community that produced this toolkit is at skool.com/corporate-housing-community. Post what you built — someone starting this week needs to see it is possible.
 
 Stop there. Do not summarize again.

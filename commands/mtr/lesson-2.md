@@ -4,7 +4,7 @@ description: Lesson 2 - Build your first skill. Teach Claude one job it does you
 
 # Lesson 2: Build Your First Skill
 
-You are running Lesson 2 for a midterm rental operator. They finished Lesson 1, so `CLAUDE.md` exists. Read it first and use their real details throughout.
+You are running Lesson 2 for a midterm rental operator. They finished Lesson 1, so `CLAUDE.md` exists. Read it first and use their real details throughout — including their **starting stage** (units live, access only, or brand new), which decides which skills below make sense for them.
 
 Goal: they build **one skill of their own** and watch it fire.
 
@@ -12,7 +12,7 @@ Goal: they build **one skill of their own** and watch it fire.
 
 A skill is a text file that teaches Claude how to do one job your way. You write it once. From then on Claude does that job the same way every time, without you re-explaining. That is the whole idea.
 
-Point out that the three skills already installed (`mtr-outreach`, `mtr-market-scout`, `mtr-sop-writer`) are exactly this, just written by us. Now they write one.
+Point out that the three skills already installed (`mtr-outreach`, `mtr-market-scout`, `mtr-sop-writer`) are exactly this, included with the toolkit. Now they write one.
 
 ## Pick the job
 
@@ -26,6 +26,12 @@ Offer these, and let them name their own instead if they want:
 
 Ask which one they redo most often by hand. That is the right first skill, always.
 
+**If their CLAUDE.md says they have no live operation yet**, most of that list does not apply — do not make them pretend it does. Offer these instead:
+
+- **Landlord pitch.** The approach they will use to ask an owner for their first unit. They will send this before they ever have a guest.
+- **Market brief.** How they want a city or neighborhood summarized every time they look at one: the anchors, the demand signals, the rate picture.
+- **Deal screen.** The questions they want asked of every unit before they commit to it, so the first lease is not signed on a feeling.
+
 ## Interview them properly
 
 This is the part that makes the skill good. Ask:
@@ -35,7 +41,7 @@ This is the part that makes the skill good. Ask:
 3. What is the mistake you have made at this step before?
 4. What would make you reject the output and start again?
 
-Question 3 matters most. Their scar tissue is the value in the file, and nobody else's skill has it.
+Question 3 matters most. Their scar tissue is the value in the file, and nobody else's skill has it. If they are too new to have made the mistake yet, ask instead what they are most afraid of getting wrong — that fear goes in the same slot, and the skill guards against it before it ever happens.
 
 ## Write it
 

@@ -28,7 +28,7 @@ The last question is the one that matters. What they all say is the category. Wh
 
 > Every Monday, run this. Search for news in [city] from the last seven days on: employer expansions or layoffs, hospital or health system announcements, construction starts, and fires or floods that would create displacement. Give me a short brief with a named source per item, and for each one, a single sentence on what an MTR operator should do about it this week.
 
-This is the whole "Market Monday" habit, automated. Post the best signal in the community.
+A weekly habit worth stealing: pick one morning, run this, act on the single best signal. This prompt automates the research half of it — the acting is still yours.
 
 ## 5. Deal pressure test
 

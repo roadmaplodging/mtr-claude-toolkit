@@ -71,7 +71,9 @@ for f in "${SRC}/gifts/"*.md; do
 done
 
 if [ "${CMD_COUNT}" -eq 0 ] || [ "${SKILL_COUNT}" -eq 0 ]; then
-  echo "ERROR: nothing was installed. Please report this in the community."
+  echo "ERROR: nothing was installed."
+  echo "Open an issue at https://github.com/roadmaplodging/mtr-claude-toolkit/issues"
+  echo "or post in the free community: https://www.skool.com/corporate-housing-community"
   exit 1
 fi
 
