@@ -1,0 +1,77 @@
+---
+name: mtr-outreach
+description: Write B2B outreach for midterm rental and corporate housing operators - first-touch emails to housing decision makers and the 7-touch follow-up cadence that comes after. Use when drafting an email, DM, or LinkedIn message to an HR or mobility manager, relocation coordinator, claims adjuster, travel nurse recruiter, project manager, or anyone else who places people into housing for 30 to 90 days.
+---
+
+# B2B outreach for MTR operators
+
+## The situation you are writing into
+
+Your reader is not shopping for a rental. They have a person to house, a budget somebody else approved, and a deadline. They are not comparing your photos to anyone else's. They want to stop thinking about this problem.
+
+That single fact changes everything about the message. An operator who writes like a listing gets deleted. An operator who writes like a supplier gets a reply.
+
+## The first-touch email
+
+**Hard limits. Do not exceed them.**
+
+- Under 120 words.
+- One ask, and it is fifteen minutes. Never a tour, never a proposal, never "let me know if you're interested".
+- Every claim verifiable by the operator.
+
+**The first sentence is the whole email.** It must be about the reader's situation. Not the operator's business, not their years of experience, not their beautiful units.
+
+Weak: "My name is X and I run a furnished rental business in Nashville."
+Strong: "I saw you're bringing residents in for the July start at Vanderbilt."
+Strong: "You're posting travel roles at three facilities in the metro right now."
+Strong: "When a claim goes to ALE and the family has pets, most of your options disappear."
+
+The reader should finish sentence one already knowing this person understands their job.
+
+**Structure that works:**
+
+1. Their situation, specifically. One sentence.
+2. What you do about that exact thing. One or two sentences, concrete.
+3. One proof point, real. A past placement, years operating, a comparable client. If there is none, say what capacity you hold instead: "I keep two 2-bedrooms in the 37203 corridor and can turn one in 48 hours."
+4. The ask. Fifteen minutes, and offer to work around their calendar.
+
+**Ban list. These make the email look like every other one:**
+"I hope this email finds you well" / "I wanted to reach out" / "circle back" / "touch base" / "synergy" / "premium, luxury, upscale" used without a fact behind them / any list of amenities / any paragraph about how passionate the operator is.
+
+## The 7-touch, 14-day follow-up
+
+Most operators quit at touch two. Most replies come after touch four. That gap is where the business is.
+
+The rule that makes it work: **every touch delivers something the reader would keep even if they never reply.** A follow-up that only asks again is a withdrawal from an account you have not funded.
+
+| Touch | Day | What it carries |
+|---|---|---|
+| 1 | 0 | The first-touch email |
+| 2 | 2 | One market fact they would not have: new project, employer expansion, seasonal squeeze on inventory |
+| 3 | 4 | A comparable placement, anonymized. What was needed, what it cost, how fast it moved |
+| 4 | 7 | Something usable: a housing-request checklist, a compliance one-pager, a W-9 and COI packet |
+| 5 | 9 | A real availability update. Only send if it is true |
+| 6 | 12 | A short note naming the specific reason you think they are a fit, and an easy out |
+| 7 | 14 | The close-the-loop message. "I'll stop here. If housing comes up, this is my number." |
+
+Touch 7 is not a threat and not a guilt trip. Done properly it produces more replies than touches 2 through 6 combined, because it costs the reader nothing to answer.
+
+**Never write "just checking in".** If a touch has nothing to deliver, the touch is not ready. Skip the day and send it when it is.
+
+## Channel notes
+
+- **Email** is the default for adjusters, relocation coordinators, and HR.
+- **LinkedIn** works for corporate mobility and recruiters. Same rules, shorter, no attachments on first contact.
+- **Phone** beats both for restoration companies and project managers, who live on their phones and rarely read email during a job.
+
+## What good looks like
+
+The test: could the operator send this to somebody who does this job all day without embarrassment, and would that person be able to tell within five seconds what it is about?
+
+If the first sentence could be pasted into any other operator's email unchanged, it is not finished.
+
+## Rules that do not bend
+
+- **The operator sends. You draft.** Never imply you can send, schedule, or deliver anything.
+- **Never invent proof.** No fabricated placements, review counts, client names, or statistics. An operator caught overstating to an adjuster does not lose one deal, they lose the referral source permanently.
+- **Never promise capacity that does not exist.** "I can house four people next week" when they hold one unit is the fastest way to burn a corporate account. If they want to speak to capacity they do not own, teach them the honest version: primary inventory they control, secondary inventory they can reach, partner inventory they can broker, all labeled as such.
