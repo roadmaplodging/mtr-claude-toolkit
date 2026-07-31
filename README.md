@@ -69,8 +69,10 @@ If you would rather not pipe a script into your shell, that is a reasonable inst
 
 ## Uninstall
 
+The three skills are named explicitly on purpose. `rm -rf ~/.claude/skills/mtr-*` would delete any other skill of yours that happens to start with `mtr-`.
+
 ```bash
-rm -rf ~/.claude/commands/mtr ~/.claude/skills/mtr-* ~/.claude/mtr-toolkit
+rm -rf ~/.claude/commands/mtr        ~/.claude/skills/mtr-outreach        ~/.claude/skills/mtr-market-scout        ~/.claude/skills/mtr-sop-writer        ~/.claude/mtr-toolkit
 ```
 
 ## Community
