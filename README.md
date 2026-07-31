@@ -55,6 +55,7 @@ The installer writes **only** into these paths and touches nothing else in `~/.c
 ~/.claude/commands/mtr/{lesson-1..4,start,outreach,market,sop}.md
 ~/.claude/skills/mtr-outreach/SKILL.md
 ~/.claude/skills/mtr-market-scout/SKILL.md
+~/.claude/skills/mtr-guest-messages/SKILL.md
 ~/.claude/skills/mtr-sop-writer/SKILL.md
 ~/.claude/mtr-toolkit/gifts/*.md
 ```
@@ -69,10 +70,10 @@ If you would rather not pipe a script into your shell, that is a reasonable inst
 
 ## Uninstall
 
-The three skills are named explicitly on purpose. `rm -rf ~/.claude/skills/mtr-*` would delete any other skill of yours that happens to start with `mtr-`.
+The skills are named explicitly on purpose. `rm -rf ~/.claude/skills/mtr-*` would delete any other skill of yours that happens to start with `mtr-`.
 
 ```bash
-rm -rf ~/.claude/commands/mtr        ~/.claude/skills/mtr-outreach        ~/.claude/skills/mtr-market-scout        ~/.claude/skills/mtr-sop-writer        ~/.claude/mtr-toolkit
+rm -rf ~/.claude/commands/mtr        ~/.claude/skills/mtr-outreach        ~/.claude/skills/mtr-market-scout        ~/.claude/skills/mtr-guest-messages        ~/.claude/skills/mtr-sop-writer        ~/.claude/mtr-toolkit
 ```
 
 ## Want to skip some of the hard work?

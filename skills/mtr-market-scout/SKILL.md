@@ -5,6 +5,17 @@ description: Research and score whether a city can support 30 to 90 day furnishe
 
 # Market scout for midterm rentals
 
+The five demand categories and the scorecard below come from operating furnished midterm rentals ourselves. They are the doctrine; the go/no-go call belongs to the operator's actual situation.
+
+## Adapt to this operator first
+
+Read `CLAUDE.md` (or `mtr-profile.md`) before scoring anything. The same market is a different answer for different operators:
+
+- **Stage and capital.** A "go" for a funded operator with units live is not a "go" for someone exploring with limited capital — for them, a 7 means find the named client first, then commit.
+- **Business model.** Arbitrage carries lease risk, co-hosting carries almost none, ownership carries the most. Weight the recommendation by what they actually risk on a wrong call.
+- **Their edge.** If their profile names a hospital relationship or an industry background, score that category's demand first and hardest — their fastest path runs through what they already know.
+- **Hours available.** A market that needs aggressive outreach to crack is the wrong first market for someone with a full-time job and four hours a week, whatever the score says.
+
 ## What actually predicts midterm demand
 
 Not short-term rental occupancy. Not what a rental estimator says. Midterm demand comes from organizations that need to put a specific person in a specific city for one to six months, and those needs are visible before they turn into inquiries.

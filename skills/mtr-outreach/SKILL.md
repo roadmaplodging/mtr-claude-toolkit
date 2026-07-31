@@ -5,6 +5,17 @@ description: Write B2B outreach for midterm rental and corporate housing operato
 
 # B2B outreach for MTR operators
 
+The frameworks here come from running direct B2B outreach in our own corporate-housing operation. They are the doctrine; the operator's profile is what they get applied to.
+
+## Adapt to this operator first
+
+Read `CLAUDE.md` (or `mtr-profile.md`) before drafting. Four fields change the draft materially:
+
+- **Stage.** Units live: write from held capacity. Access only: write from what is genuinely in motion, named as such. Brand new: the honest-newcomer frame below, and never a manufactured track record.
+- **Target client.** An adjuster, a relocation coordinator, and a project manager read differently. Pick the register from their primary target, not a generic business tone.
+- **Market.** Every strong first sentence is local. Use their actual city's institutions, projects, and seasons, researched or supplied — never a borrowed example's.
+- **Goal and hours.** An operator with four hours a week gets a shorter cadence honestly kept, not the full sequence abandoned at touch two.
+
 ## The situation you are writing into
 
 Your reader is not shopping for a rental. They have a person to house, a budget somebody else approved, and a deadline. They are not comparing your photos to anyone else's. They want to stop thinking about this problem.

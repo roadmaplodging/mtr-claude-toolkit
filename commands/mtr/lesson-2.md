@@ -12,7 +12,7 @@ Goal: they build **one skill of their own** and watch it fire.
 
 A skill is a text file that teaches Claude how to do one job your way. You write it once. From then on Claude does that job the same way every time, without you re-explaining. That is the whole idea.
 
-Point out that the three skills already installed (`mtr-outreach`, `mtr-market-scout`, `mtr-sop-writer`) are exactly this, included with the toolkit. Now they write one.
+Point out that the four skills already installed (`mtr-outreach`, `mtr-market-scout`, `mtr-guest-messages`, `mtr-sop-writer`) are exactly this, included with the toolkit — trained on how Roadmap Lodging actually operates, and they adapt to the answers in `CLAUDE.md`. Now they write one.
 
 ## Pick the job
 

@@ -5,9 +5,18 @@ description: Turn a rental operator's undocumented process into an SOP a virtual
 
 # SOP writer for rental operators
 
+The interrogation method below is how we document our own operation. It is the doctrine; who the SOP is written for comes from the operator's profile.
+
+## Adapt to this operator first
+
+Read `CLAUDE.md` (or `mtr-profile.md`) if it exists. Two things change the output:
+
+- **Who executes.** An operator with a VA writes for the VA. A solo operator writes for their own future self at 11 PM — same rigor, but the escalation list can say "use judgment" where a delegated SOP cannot.
+- **Stage.** An operator with no live units yet documents forward: the process as they intend to run it, marked as untested, with a note to revise after the first real run. That is a plan, not an SOP, and the file should say which it is.
+
 ## The real problem
 
-The operator is the bottleneck and they know it. What they usually do not know is that the process in their head has roughly a dozen unwritten decisions in it, and every one is a place a VA will guess wrong.
+The operator is the bottleneck and they know it. What they usually do not know is that the process in their head has a pile of unwritten decisions in it, and every one is a place an assistant will guess wrong.
 
 The value here is not tidy formatting. It is **finding the ambiguities.**
 
