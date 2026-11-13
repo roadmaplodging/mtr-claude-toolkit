@@ -4,7 +4,7 @@ description: Draft a first-touch B2B email plus a 7-touch follow-up plan for one
 
 Draft outreach for one target company, for a midterm rental operator.
 
-Read `mtr-profile.md` in the current directory first. If it does not exist, tell them to run `/mtr:start` once to build it, then stop.
+Read `CLAUDE.md` in the current directory first. If there is none, read `mtr-profile.md`. If neither exists, tell them to run `/mtr:lesson-1` (or `/mtr:start` for the fast path) once to build one, then stop.
 
 Ask only for what the profile does not already tell you:
 
@@ -16,4 +16,4 @@ Then follow the `mtr-outreach` skill: the 120-word limit, the first sentence abo
 
 Write the result to `outreach-<company>.md` and tell them where it is.
 
-Every fact in the email must come from `mtr-profile.md` or from what they just told you. Nothing invented. If a claim would help and you do not have it, ask for it or leave it out.
+Every fact in the email must come from that profile file or from what they just told you. Nothing invented. If a claim would help and you do not have it, ask for it or leave it out.

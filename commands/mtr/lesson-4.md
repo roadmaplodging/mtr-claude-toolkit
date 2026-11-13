@@ -29,6 +29,7 @@ Design constraints:
 - Readable on a phone. Adjusters open things on phones.
 - Their name, business name, market, and contact line from the `## Who I am` section of `CLAUDE.md`. If the business is not named yet, their own name carries the page — that is normal for a new operator.
 - **Every claim traceable.** Do not write "trusted by leading employers" if they have housed nobody. If they have no placements yet, lead with capacity, response time, and compliance readiness instead. Those are true on day one.
+- **Never fill a gap with an invented number.** Any figure, date, count, or claim that is not in `CLAUDE.md` or the Lesson 3 files goes in as a blank with a yellow highlight, labelled with what belongs there, for them to complete. When you show them the page, say how many blanks there are and where.
 
 Then open it in their browser so they see it immediately.
 

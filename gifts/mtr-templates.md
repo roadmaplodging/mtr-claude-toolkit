@@ -1,18 +1,25 @@
 # 10 Templates for MTR Operators
 
+> **One rule that improves every prompt in this file:** when a prompt writes something a
+> person will read (an email, a message, a listing, an SOP), add this line to it:
+> *"Write like a person: no em dashes, never 'X is not A. It is B.', do not end by
+> restating the lesson, vary sentence length hard (short next to long, never three
+> same-length in a row), and never invent a number or a name."*
+> AI writing is detected from structure, not word choice, and that one line moves it.
+
 Each one is a mega-prompt. Paste it and Claude builds the whole asset using your `CLAUDE.md`.
 
 Gift from Lesson 4 of the MTR Operator Toolkit.
 
 ---
 
-**1. Capability statement.** Build me a one-page capability statement as a self-contained HTML file: who I serve, inventory and coverage, response times, compliance readiness (in the US: W-9, certificate of insurance, vendor onboarding — use my country's equivalents otherwise), and how to start. Professional, print-friendly, works on a phone. Every claim traceable to my CLAUDE.md. If I have no placements yet, lead with capacity and readiness instead of pretending.
+**1. Capability statement.** Build me a one-page capability statement as a self-contained HTML file: who I serve, inventory and coverage, response times, compliance readiness (in the US: W-9, certificate of insurance, vendor onboarding, use my country's equivalents otherwise), and how to start. Professional, print-friendly, works on a phone. Every claim traceable to my CLAUDE.md. If I have no placements yet, lead with capacity and readiness instead of pretending.
 
 **2. Property one-pager.** A single unit presented to a corporate client, not a vacation renter: layout, what is included, distance to the facilities that matter, parking, pets, internet speed, minimum stay, all-in monthly. No adjectives I cannot prove.
 
 **3. Rate sheet with tiers.** Standard, priority, and white-glove for the same unit. What actually differs in service level and SLA, not just price. Built so a client compares tiers instead of comparing me to a cheaper operator.
 
-**4. Vendor onboarding pack.** Everything a corporate client asks for before they can pay me — in the US that means W-9, COI (certificate of insurance) requirements, business licence, references, insurance limits; adapt to my country if different. Build a checklist of what I need to have ready and a cover note for sending it.
+**4. Vendor onboarding pack.** Everything a corporate client asks for before they can pay me, in the US that means W-9, COI (certificate of insurance) requirements, business licence, references, insurance limits; adapt to my country if different. Build a checklist of what I need to have ready and a cover note for sending it.
 
 **5. B2B rental agreement checklist.** The key elements of an agreement with a company rather than a consumer: who signs, who pays, occupancy limits, early termination, damage, extensions, invoicing terms. A checklist to take to a lawyer, not a contract to sign. Flag this as needing counsel review.
 

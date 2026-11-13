@@ -41,6 +41,8 @@ Wait for each answer. One gentle follow-up if an answer is vague, then move on. 
    - Stage (a): **What is genuinely true about your units that a competitor could not say?** Push back once on anything vague. "Clean and comfortable" is not an answer. Something a stranger could verify is.
    - Stages (b) and (c): **What do you bring that most people starting out don't?** A background in healthcare or insurance, deep local knowledge, capital, a relationship with a hospital or employer. Everyone has something; help them find it.
 
+   **Check anything checkable before you write it down.** If their answer names a distance, a travel time, or a place ("a ten minute walk to the hospital"), look it up if you can search. If it holds, say so. If it looks off, or you cannot confirm it, tell them plainly and let them correct the line. This sentence feeds every future draft, so it has to be true.
+
 ## Then write CLAUDE.md
 
 Write it to the current directory. Show them the file when it is done and tell them it is plain text they can open and edit any time.

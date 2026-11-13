@@ -2,7 +2,7 @@
 description: Turn a process you only know how to do yourself into an SOP an assistant can follow
 ---
 
-Turn one process out of the operator's head into a written SOP (standard operating procedure) that an assistant — human or virtual — could follow without asking questions.
+Turn one process out of the operator's head into a written SOP (standard operating procedure) that an assistant, human or virtual, could follow without asking questions.
 
 Start by asking which process hurts most. Offer examples so they do not have to think: turnover between guests, onboarding a new landlord, handling a maintenance call at 9 PM, taking an inbound lead, move-in day.
 

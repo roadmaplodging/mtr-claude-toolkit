@@ -36,6 +36,7 @@ Read all three yourself and tell them, in plain language:
 2. **One organization to contact this week**, and the specific role inside it.
 3. The **gap** the competitor research exposed. Where is nobody serving.
 4. Score the market out of 10 using the scorecard in `mtr-market-scout`, and give the go or no-go.
+5. **Check their own differentiator.** Take the "What makes me different" line from `CLAUDE.md` and hold it against what the agents found. Label it Verified, Likely, or Unconfirmed like every other claim. If the research contradicts it, say so and offer a corrected line they can paste into the file.
 
 Then say clearly: this is a scout report, not a decision. Tell them which single row to verify first if they only have twenty minutes.
 

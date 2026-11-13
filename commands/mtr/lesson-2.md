@@ -75,7 +75,7 @@ Tell them the file lives on their computer, it is plain text, and they can open 
 
 ## Fire it immediately
 
-Do not end on a file. Give it a real input right now, run the skill, and show the output. If it misses something, fix the skill in front of them and run it again. **That second run is the moment the concept lands** — they see that editing a text file changed the behaviour.
+Do not end on a file. If they have a real inquiry or input to hand, use it. If they do not, invent one realistic, messy test case and say plainly that it is invented. Run the skill on it and show the output. Then look for what the skill missed: name the gap, fix the skill in front of them, and run the same input again. **That second run is the moment the concept lands**: they see that editing a text file changed the behaviour.
 
 ## Close
 
