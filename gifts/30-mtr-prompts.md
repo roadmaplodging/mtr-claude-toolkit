@@ -1,8 +1,15 @@
 # 30 Prompts for Midterm Rental Operators
 
+> **One rule that improves every prompt in this file:** when a prompt writes something a
+> person will read (an email, a message, a listing, an SOP), add this line to it:
+> *"Write like a person: no em dashes, never 'X is not A. It is B.', do not end by
+> restating the lesson, vary sentence length hard (short next to long, never three
+> same-length in a row), and never invent a number or a name."*
+> AI writing is detected from structure, not word choice, and that one line moves it.
+
 Copy, paste, edit the bracketed parts. These assume you have a `CLAUDE.md` from Lesson 1, so they will use your market, your units, and your rates without being told.
 
-If you are starting from zero, begin with the **Starting from zero** and **Finding demand** sections — everything under Guests, Pricing, and The business assumes a running operation and will make sense once you have one.
+If you are starting from zero, begin with the **Starting from zero** and **Finding demand** sections, everything under Guests, Pricing, and The business assumes a running operation and will make sense once you have one.
 
 Gift from Lesson 1 of the MTR Operator Toolkit.
 
@@ -10,7 +17,7 @@ Gift from Lesson 1 of the MTR Operator Toolkit.
 
 ## Starting from zero (0a to 0e)
 
-0a. I have no units yet. Given my market and goal in CLAUDE.md, what are the three realistic ways in for someone in my position — leasing to re-rent, co-hosting, or managing for an owner — and which fits my hours and capital?
+0a. I have no units yet. Given my market and goal in CLAUDE.md, what are the three realistic ways in for someone in my position, leasing to re-rent, co-hosting, or managing for an owner, and which fits my hours and capital?
 0b. Write a first message to a landlord with a vacant unit in my market, asking for a conversation about a longer-term arrangement. Honest about being new, specific about what I would take off their plate.
 0c. What would I need to have ready before I could credibly take a corporate housing inquiry: entity, insurance, agreement, furnishings? Order it as a checklist with rough effort per item, and mark what varies by country or state.
 0d. Interview me about the unit I am considering, then tell me what it would take to make it corporate-ready and what that costs at the modest end.
@@ -58,7 +65,7 @@ Gift from Lesson 1 of the MTR Operator Toolkit.
 24. A guest reported [issue] on day 3. Write my reply. Fix first, no defensiveness.
 25. It is day 45 of a 60-day stay. Write the renewal conversation opener.
 26. Write my ask for an honest review at checkout. Never request a rating and never offer anything in exchange.
-27. Turn this into a checklist my assistant (or future VA — virtual assistant) can follow without asking me anything: [describe your process]
+27. Turn this into a checklist my assistant (or future VA, virtual assistant) can follow without asking me anything: [describe your process]
 
 ## The business (28 to 30)
 

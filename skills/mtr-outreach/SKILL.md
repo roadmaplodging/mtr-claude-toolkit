@@ -3,6 +3,18 @@ name: mtr-outreach
 description: Write B2B outreach for midterm rental and corporate housing operators - first-touch emails to housing decision makers and the 7-touch follow-up cadence that comes after. Use when drafting an email, DM, or LinkedIn message to an HR or mobility manager, relocation coordinator, claims adjuster, travel nurse recruiter, project manager, or anyone else who places people into housing for 30 to 90 days.
 ---
 
+> **Write like a person, and check the structure first.** AI writing is detectable from
+> structure, so these rules outrank any phrasing tip below:
+>
+> - Never use em dashes. Use commas, colons, periods, or parentheses.
+> - Never write "X is not A. It is B." or any negate-then-correct framing.
+> - Do not state the lesson or moral at the end. End on the detail, the number, or the
+>   next step.
+> - Vary sentence length hard: put a short sentence next to a long one, and never write
+>   three same-length sentences in a row. Uniform rhythm is the most reliable machine tell.
+> - Address the reader directly at least once in anything longer than a paragraph.
+> - Never invent a number, statistic, name, or testimonial.
+
 # B2B outreach for MTR operators
 
 The frameworks here come from running direct B2B outreach in our own corporate-housing operation. They are the doctrine; the operator's profile is what they get applied to.
@@ -13,7 +25,7 @@ Read `CLAUDE.md` (or `mtr-profile.md`) before drafting. Four fields change the d
 
 - **Stage.** Units live: write from held capacity. Access only: write from what is genuinely in motion, named as such. Brand new: the honest-newcomer frame below, and never a manufactured track record.
 - **Target client.** An adjuster, a relocation coordinator, and a project manager read differently. Pick the register from their primary target, not a generic business tone.
-- **Market.** Every strong first sentence is local. Use their actual city's institutions, projects, and seasons, researched or supplied — never a borrowed example's.
+- **Market.** Every strong first sentence is local. Use their actual city's institutions, projects, and seasons, researched or supplied, never a borrowed example's.
 - **Goal and hours.** An operator with four hours a week gets a shorter cadence honestly kept, not the full sequence abandoned at touch two.
 
 ## The situation you are writing into
@@ -32,12 +44,12 @@ That single fact changes everything about the message. An operator who writes li
 
 **The first sentence is the whole email.** It must be about the reader's situation. Not the operator's business, not their years of experience, not their beautiful units.
 
-These examples are invented — swap in the operator's real market and real observations:
+These examples are invented, swap in the operator's real market and real observations:
 
 Weak: "My name is X and I run a furnished rental business in your city."
 Strong: "I saw you're bringing residents in for the July start at the university medical center."
 Strong: "You're posting travel roles at three facilities in the metro right now."
-Strong: "When a claim goes to ALE (additional living expense — insurance paying to house a displaced family) and the family has pets, most of your options disappear."
+Strong: "When a claim goes to ALE (additional living expense, insurance paying to house a displaced family) and the family has pets, most of your options disappear."
 
 The reader should finish sentence one already knowing this person understands their job.
 
@@ -45,7 +57,7 @@ The reader should finish sentence one already knowing this person understands th
 
 1. Their situation, specifically. One sentence.
 2. What you do about that exact thing. One or two sentences, concrete.
-3. One proof point, real. A past placement, years operating, a comparable client. If there is none of that, say what capacity you actually hold — an invented example of the shape: "I keep two 2-bedrooms near the hospital district and can turn one around inside two days." And if the operator holds nothing yet, the honest version IS the proof point: new operator, one unit coming online, and exactly how they would handle the placement. Never dress a zero up as a track record.
+3. One proof point, real. A past placement, years operating, a comparable client. If there is none of that, say what capacity you actually hold, an invented example of the shape: "I keep two 2-bedrooms near the hospital district and can turn one around inside two days." And if the operator holds nothing yet, the honest version IS the proof point: new operator, one unit coming online, and exactly how they would handle the placement. Never dress a zero up as a track record.
 4. The ask. Fifteen minutes, and offer to work around their calendar.
 
 **Ban list. These make the email look like every other one:**

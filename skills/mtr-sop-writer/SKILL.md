@@ -3,6 +3,18 @@ name: mtr-sop-writer
 description: Turn a rental operator's undocumented process into an SOP a virtual assistant can follow. Use when an operator wants to delegate, document, or systemize something - turnovers, landlord onboarding, maintenance calls, lead intake, move-in day - or says they cannot take time off because only they know how to do it.
 ---
 
+> **Write like a person, and check the structure first.** AI writing is detectable from
+> structure, so these rules outrank any phrasing tip below:
+>
+> - Never use em dashes. Use commas, colons, periods, or parentheses.
+> - Never write "X is not A. It is B." or any negate-then-correct framing.
+> - Do not state the lesson or moral at the end. End on the detail, the number, or the
+>   next step.
+> - Vary sentence length hard: put a short sentence next to a long one, and never write
+>   three same-length sentences in a row. Uniform rhythm is the most reliable machine tell.
+> - Address the reader directly at least once in anything longer than a paragraph.
+> - Never invent a number, statistic, name, or testimonial.
+
 # SOP writer for rental operators
 
 The interrogation method below is how we document our own operation. It is the doctrine; who the SOP is written for comes from the operator's profile.
@@ -11,7 +23,7 @@ The interrogation method below is how we document our own operation. It is the d
 
 Read `CLAUDE.md` (or `mtr-profile.md`) if it exists. Two things change the output:
 
-- **Who executes.** An operator with a VA writes for the VA. A solo operator writes for their own future self at 11 PM — same rigor, but the escalation list can say "use judgment" where a delegated SOP cannot.
+- **Who executes.** An operator with a VA writes for the VA. A solo operator writes for their own future self at 11 PM, same rigor, but the escalation list can say "use judgment" where a delegated SOP cannot.
 - **Stage.** An operator with no live units yet documents forward: the process as they intend to run it, marked as untested, with a note to revise after the first real run. That is a plan, not an SOP, and the file should say which it is.
 
 ## The real problem
@@ -47,7 +59,7 @@ Owner: <who runs this>          Last updated: <date>
 - Supplies needed
 
 ## Steps
-1. <action> — <who> — <timing>
+1. <action>, <who>, <timing>
 2. ...
 
 ## Stop and call me if

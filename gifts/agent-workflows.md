@@ -1,5 +1,12 @@
 # 5 Agent Workflows for MTR Operators
 
+> **One rule that improves every prompt in this file:** when a prompt writes something a
+> person will read (an email, a message, a listing, an SOP), add this line to it:
+> *"Write like a person: no em dashes, never 'X is not A. It is B.', do not end by
+> restating the lesson, vary sentence length hard (short next to long, never three
+> same-length in a row), and never invent a number or a name."*
+> AI writing is detected from structure, not word choice, and that one line moves it.
+
 An agent workflow is several Claudes working at once instead of one working in sequence. Paste one of these and it runs the whole thing.
 
 Gift from Lesson 3 of the MTR Operator Toolkit.
@@ -28,7 +35,7 @@ The last question is the one that matters. What they all say is the category. Wh
 
 > Every Monday, run this. Search for news in [city] from the last seven days on: employer expansions or layoffs, hospital or health system announcements, construction starts, and fires or floods that would create displacement. Give me a short brief with a named source per item, and for each one, a single sentence on what an MTR operator should do about it this week.
 
-A weekly habit worth stealing: pick one morning, run this, act on the single best signal. This prompt automates the research half of it — the acting is still yours.
+A weekly habit worth stealing: pick one morning, run this, act on the single best signal. This prompt automates the research half of it, the acting is still yours.
 
 ## 5. Deal pressure test
 

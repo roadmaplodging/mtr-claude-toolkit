@@ -70,7 +70,7 @@ If you would rather not pipe a script into your shell, that is a reasonable inst
 
 ## Updating
 
-Re-run the installer any time. It overwrites only the toolkit's own files — your `CLAUDE.md`, your `mtr-profile.md`, and any skills you wrote yourself are never touched. See [CHANGELOG.md](CHANGELOG.md) for what changed.
+Re-run the installer any time. It replaces only the toolkit's own files: the `/mtr:` commands, the four `mtr-` skills it ships, and the gift files. If you have edited one of those, your version is saved beside it as `<file>.bak-<date>` first. Your `CLAUDE.md`, your `mtr-profile.md`, and any skills you wrote yourself are never touched. See [CHANGELOG.md](CHANGELOG.md) for what changed.
 
 ## Uninstall
 

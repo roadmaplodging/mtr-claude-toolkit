@@ -3,6 +3,18 @@ name: mtr-market-scout
 description: Research and score whether a city can support 30 to 90 day furnished rentals. Use when an operator asks whether a market is worth entering, where midterm demand comes from in their city, which market to expand into next, or wants demand drivers found and a market scorecard filled in.
 ---
 
+> **Write like a person, and check the structure first.** AI writing is detectable from
+> structure, so these rules outrank any phrasing tip below:
+>
+> - Never use em dashes. Use commas, colons, periods, or parentheses.
+> - Never write "X is not A. It is B." or any negate-then-correct framing.
+> - Do not state the lesson or moral at the end. End on the detail, the number, or the
+>   next step.
+> - Vary sentence length hard: put a short sentence next to a long one, and never write
+>   three same-length sentences in a row. Uniform rhythm is the most reliable machine tell.
+> - Address the reader directly at least once in anything longer than a paragraph.
+> - Never invent a number, statistic, name, or testimonial.
+
 # Market scout for midterm rentals
 
 The five demand categories and the scorecard below come from operating furnished midterm rentals ourselves. They are the doctrine; the go/no-go call belongs to the operator's actual situation.
@@ -11,9 +23,9 @@ The five demand categories and the scorecard below come from operating furnished
 
 Read `CLAUDE.md` (or `mtr-profile.md`) before scoring anything. The same market is a different answer for different operators:
 
-- **Stage and capital.** A "go" for a funded operator with units live is not a "go" for someone exploring with limited capital — for them, a 7 means find the named client first, then commit.
+- **Stage and capital.** A "go" for a funded operator with units live is not a "go" for someone exploring with limited capital, for them, a 7 means find the named client first, then commit.
 - **Business model.** Arbitrage carries lease risk, co-hosting carries almost none, ownership carries the most. Weight the recommendation by what they actually risk on a wrong call.
-- **Their edge.** If their profile names a hospital relationship or an industry background, score that category's demand first and hardest — their fastest path runs through what they already know.
+- **Their edge.** If their profile names a hospital relationship or an industry background, score that category's demand first and hardest, their fastest path runs through what they already know.
 - **Hours available.** A market that needs aggressive outreach to crack is the wrong first market for someone with a full-time job and four hours a week, whatever the score says.
 
 ## What actually predicts midterm demand
@@ -24,13 +36,13 @@ Five categories. Work all five, because an operator who knows only one of them h
 
 **1. Employers expanding, relocating, or hiring in waves.** New plants, regional offices, engineering teams on a build. Sources: local business journal, economic development office announcements, state incentive filings, the company's own careers page filtered to contract or relocation roles.
 
-**2. Healthcare.** Hospital systems with residency intakes, travel nurse demand, locum tenens (temporary physician) coverage. Residency start dates are published and predictable, which makes this the most plannable demand in the entire business. Sources: health system newsroom, residency/GME program pages, travel nurse job boards filtered by city. (Source names here are US-flavored; outside the US, use the local equivalents — teaching-hospital intake dates and agency nurse demand behave the same way.)
+**2. Healthcare.** Hospital systems with residency intakes, travel nurse demand, locum tenens (temporary physician) coverage. Residency start dates are published and predictable, which makes this the most plannable demand in the entire business. Sources: health system newsroom, residency/GME program pages, travel nurse job boards filtered by city. (Source names here are US-flavored; outside the US, use the local equivalents, teaching-hospital intake dates and agency nurse demand behave the same way.)
 
 **3. Construction and infrastructure longer than six months.** Highway projects, data centers, plant retrofits, utility work. Crews need housing near the site and their project manager books it. Sources: state DOT project lists, municipal permit records, contractor award announcements.
 
 **4. Universities.** Visiting faculty, researchers, medical residents, semester-length programs. Sources: university HR relocation pages, visiting scholar offices.
 
-**5. Insurance displacement.** Fires, floods, storm events driving ALE claims (additional living expense — the insurer pays to house the displaced family). This demand is unplannable but constant, and it is the fastest-moving. Sources: local news, restoration company activity, state fire marshal reports.
+**5. Insurance displacement.** Fires, floods, storm events driving ALE claims (additional living expense, the insurer pays to house the displaced family). This demand is unplannable but constant, and it is the fastest-moving. Sources: local news, restoration company activity, state fire marshal reports.
 
 ## The output
 
@@ -41,9 +53,9 @@ A table. One row per finding, and every row carries a **named verification sourc
 
 **Confidence is mandatory and it is honest.** Three values only:
 
-- **Verified** — you have the source and the date and it is current.
-- **Likely** — the pattern is well established but this specific instance is not confirmed.
-- **Unconfirmed** — plausible, not checked. Say so.
+- **Verified**, you have the source and the date and it is current.
+- **Likely**, the pattern is well established but this specific instance is not confirmed.
+- **Unconfirmed**, plausible, not checked. Say so.
 
 Never present Unconfirmed as Verified to make a table look stronger. Depending on their model, an operator signs a lease, commits capital, or takes on a client on this. A confident wrong row costs them thousands and months of their life. A row marked Unconfirmed costs them a twenty-minute phone call.
 
@@ -59,7 +71,7 @@ Five signals, 0 to 2 each, out of 10.
 | Supply pressure | Saturated, rates compressed | Balanced | Thin furnished supply against clear demand |
 | Regulatory | 30+ day stays restricted or unclear | Some friction | Clean, midterm stays clearly permitted |
 
-**Our rule of thumb: 8 or above, go. 6 to 7, go only with one specific client already identified. Below 6, no.** These are not laws of nature — they are where we draw the lines, because the cost of being wrong is asymmetric: a passed-over 7 costs an opportunity, a leased 5 costs real money every month.
+**Our rule of thumb: 8 or above, go. 6 to 7, go only with one specific client already identified. Below 6, no.** These are not laws of nature, they are where we draw the lines, because the cost of being wrong is asymmetric: a passed-over 7 costs an opportunity, a leased 5 costs real money every month.
 
 The middle band is where operators lose money, because a 6 feels close enough to a 7. A 6 without a named client is a lease you are paying for while you look for demand.
 

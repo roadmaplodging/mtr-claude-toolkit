@@ -1,5 +1,5 @@
 # MTR Operator Toolkit for Claude Code
-# Installs 4 slash commands and 3 skills into ~\.claude
+# Installs 8 slash commands, 4 skills and 4 gift files into ~\.claude
 # Windows PowerShell. For Mac / Linux / WSL use install.sh
 
 $ErrorActionPreference = 'Stop'
@@ -35,14 +35,30 @@ try {
         exit 1
     }
 
-    # Only ever writes inside commands\mtr\ and skills\mtr-*\ so nothing
-    # you already have in ~\.claude is touched.
+    # Only ever writes inside commands\mtr\, skills\mtr-<toolkit skill>\ and mtr-toolkit\gifts\.
+    # If you have EDITED one of the toolkit's installed files, your version is copied beside it
+    # as <file>.bak-<date> before the new copy lands, so an update never silently discards your
+    # changes. The backup name does not end in .md, so Claude Code does not load it.
     New-Item -ItemType Directory -Path (Join-Path $ClaudeDir 'commands\mtr') -Force | Out-Null
     New-Item -ItemType Directory -Path (Join-Path $ClaudeDir 'skills') -Force | Out-Null
 
+    $script:backupCount = 0
+    $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'
+    function Install-ToolkitFile($srcFile, $destFile) {
+        if (Test-Path $destFile) {
+            $existing = (Get-FileHash $destFile -Algorithm SHA256).Hash
+            $incoming = (Get-FileHash $srcFile -Algorithm SHA256).Hash
+            if ($existing -ne $incoming) {
+                Copy-Item $destFile -Destination ($destFile + '.bak-' + $stamp)
+                $script:backupCount++
+            }
+        }
+        Copy-Item $srcFile -Destination $destFile -Force
+    }
+
     $cmdCount = 0
     Get-ChildItem -Path (Join-Path $src.FullName 'commands\mtr') -Filter *.md | ForEach-Object {
-        Copy-Item $_.FullName -Destination (Join-Path $ClaudeDir 'commands\mtr') -Force
+        Install-ToolkitFile $_.FullName (Join-Path $ClaudeDir ('commands\mtr\' + $_.Name))
         $cmdCount++
     }
 
@@ -50,15 +66,19 @@ try {
     Get-ChildItem -Path (Join-Path $src.FullName 'skills') -Directory | Where-Object { $_.Name -like 'mtr-*' } | ForEach-Object {
         $dest = Join-Path $ClaudeDir ('skills\' + $_.Name)
         New-Item -ItemType Directory -Path $dest -Force | Out-Null
-        Copy-Item (Join-Path $_.FullName 'SKILL.md') -Destination $dest -Force
+        Install-ToolkitFile (Join-Path $_.FullName 'SKILL.md') (Join-Path $dest 'SKILL.md')
         $skillCount++
     }
 
     $giftCount = 0
     New-Item -ItemType Directory -Path (Join-Path $ClaudeDir 'mtr-toolkit\gifts') -Force | Out-Null
     Get-ChildItem -Path (Join-Path $src.FullName 'gifts') -Filter *.md | ForEach-Object {
-        Copy-Item $_.FullName -Destination (Join-Path $ClaudeDir 'mtr-toolkit\gifts') -Force
+        Install-ToolkitFile $_.FullName (Join-Path $ClaudeDir ('mtr-toolkit\gifts\' + $_.Name))
         $giftCount++
+    }
+
+    if ($script:backupCount -gt 0) {
+        Write-Host "Backed up $($script:backupCount) file(s) you had edited as <file>.bak-$stamp before updating."
     }
 
     if ($cmdCount -eq 0 -or $skillCount -eq 0) {
